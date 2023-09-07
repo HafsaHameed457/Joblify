@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "components": "^0.1.0",
+    "normalize.css": "^8.0.1",
+    "styled": "^1.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
