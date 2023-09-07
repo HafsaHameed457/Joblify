@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Landing from "./pages/Landing";
+import Landing from "./pages/landing/Landing";
 
 function App() {
   const [count, setCount] = useState(0);
