@@ -1,10 +1,13 @@
 import React from "react";
-import TopNav from "./TopNav";
+
+import MainContent from "./MainContent";
+import TopNav from "../../components/TopNav/TopNav";
 
 const Landing = () => {
   return (
-    <div>
+    <div className=" h-full">
       <TopNav />
+      <MainContent />
     </div>
   );
 };

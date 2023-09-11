@@ -1,15 +1,9 @@
-import { useState } from "react";
-import Landing from "./pages/landing/Landing";
+import { useRoutes } from "react-router-dom";
+import routes from "./routes";
 
-function App() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <div>
-      <Landing></Landing>
-      hehe
-    </div>
-  );
-}
+const App = () => {
+  const Routes = useRoutes(routes());
+  return <div className="h-full ">{Routes}</div>;
+};
 
 export default App;
