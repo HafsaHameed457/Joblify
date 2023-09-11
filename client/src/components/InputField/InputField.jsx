@@ -22,7 +22,7 @@ const InputField = ({
         type={type}
         name={name}
         onChange={handleChange}
-        className={`border border-[#eccfaf] rounded-sm py-2 px-2 hover:border-[#e2aa6e] focus:outline-[#e2aa6e] ${inputClass}`}
+        className={`border border-[#eccfaf] rounded-sm py-2 px-2 hover:border-[#e2aa6e] focus:outline-[#e2aa6e] ${inputClass} bg-[#faebce]`}
       />
     </div>
   );

@@ -12,7 +12,49 @@ body {
   width: 100%;
   margin: auto;
   align-items: center;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
+/* Define custom scrollbar colors and size variables */
+$scrollbar-thumb-color: #888;
+$scrollbar-thumb-hover-color: #555;
+$scrollbar-track-color: #f1f1f1;
+$scrollbar-width: 4px;
+
+/* Apply styles to the scrollbar */
+::-webkit-scrollbar {
+  width: #{$scrollbar-width};
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #{$scrollbar-track-color};
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #{$scrollbar-thumb-color};
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #{$scrollbar-thumb-hover-color};
+}
+
 #root {
   height: 100%;
+}
+.animate-ease-in-right-to-left {
+  animation: ease-in-right-to-left 1s ease-in-out;
+}
+@keyframes ease-in-right-to-left {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
