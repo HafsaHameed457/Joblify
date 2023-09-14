@@ -8,7 +8,7 @@ const TopNav = ({ className = "", navClass = "" }) => {
       <div className="flex gap-3  text-center ">
         <Logo />
         <h1
-          className={`inline text-[30px]  text-[#9b5204] font-Roboto text-center justify-center items-center tracking-[0.5vw]  font-extrabold ${navClass}`}
+          className={`inline text-[30px]  text-[#9b5204] font-Roboto text-center justify-center items-center tracking-[0.5vw]  font-bold ${navClass} !font-LexendDeca`}
         >
           Joblify
         </h1>

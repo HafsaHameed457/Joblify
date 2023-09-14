@@ -12,7 +12,7 @@ const InputField = ({
 }) => {
   return (
     <div
-      className={`flex flex-col text-left gap-1 font-Roboto pt-3 ${containerClass}`}
+      className={`flex flex-col text-left gap-1 !font-LexendDeca pt-3 ${containerClass}`}
     >
       <label className={`text-sm ps-1 text-[#9b5204] ${labelClass}`}>
         {label}
@@ -22,7 +22,7 @@ const InputField = ({
         type={type}
         name={name}
         onChange={handleChange}
-        className={`border border-[#eccfaf] rounded-sm py-2 px-2 hover:border-[#e2aa6e] focus:outline-[#e2aa6e] ${inputClass} bg-[#faebce]`}
+        className={`border border-[#eccfaf] rounded-md py-2 px-2 hover:border-[#e2aa6e] focus:outline-[#e2aa6e] ${inputClass} bg-[#faebce]`}
       />
     </div>
   );

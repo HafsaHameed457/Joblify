@@ -10,7 +10,7 @@ const Button = ({
   return (
     <div className={`${containerClass}`}>
       <button
-        className={`bg-[#9b5204] text-white font-Roboto font-medium text-lg px-5 py-2 rounded-md hover:bg-[#84582a] ${className}`}
+        className={`bg-[#9b5204] text-white !font-LexendDeca font-medium text-lg px-5 py-2 rounded-md hover:bg-[#84582a] ${className}`}
         onClick={onClick}
         type={type}
       >

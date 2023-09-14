@@ -26,7 +26,7 @@ const Register = () => {
           className="!pt-5 !pb-5 !px-0 justify-center"
           navClass="text-[28px]"
         />
-        <h1 className="text-center font-LexendDeca text-[#84582a] text-[20px] font-normal">
+        <h1 className="text-center !font-LexendDeca text-[#84582a] text-[20px] font-normal">
           Register
         </h1>
         <form onSubmit={onSubmit}>
@@ -58,7 +58,7 @@ const Register = () => {
             Register
           </Button>
         </form>
-        <p className="text-[#84582a] pt-3 font-Roboto text-sm">
+        <p className="text-[#84582a] pt-3 !font-LexendDeca text-sm">
           Already have an account?
           <Link to="/login" className=" text-[#84582a]  underline ps-2">
             Login
