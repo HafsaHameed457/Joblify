@@ -21,7 +21,7 @@ const Register = () => {
   };
   return (
     <div className="w-full h-full flex text-center">
-      <div className="bg-white w-[80%] sm:w-[45%] md:w-[40%] lg:w-[25%] h-[500px]  m-auto items-center rounded-md border-t-[4px] border-t-[#9b5204] px-7">
+      <div className="animate-ease-in-top-to-bottom bg-white w-[80%] sm:w-[45%] md:w-[40%] lg:w-[25%] h-[500px]  m-auto items-center rounded-md border-t-[4px] border-t-[#9b5204] px-7">
         <TopNav
           className="!pt-5 !pb-5 !px-0 justify-center"
           navClass="text-[28px]"

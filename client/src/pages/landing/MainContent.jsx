@@ -7,7 +7,7 @@ const MainContent = () => {
   const navigate = useNavigate();
   return (
     <div className="md:flex h-[100%] md:h-auto px-[10%]">
-      <div className="w-[100%] md:w-[50%] my-5 sm:my-10  md:my-auto  gap-5  md:pr-7 md:text-left text-center items-center justify-center ">
+      <div className="w-[100%] md:w-[50%] my-5 sm:my-10  md:my-auto  gap-5  md:pr-7 md:text-left text-center items-center justify-center animate-ease-in-left-to-right">
         <h1 className=" !font-LexendDeca text-xl sm:text-4xl  tracking-[0.2vw] font-bold">
           Job <span className="text-[#9b5204]">Tracking</span> App
         </h1>
@@ -23,7 +23,7 @@ const MainContent = () => {
           onClick={() => navigate("/login")}
         />
       </div>
-      <div className="w-[80%] mx-auto my-10 md:w-[50%] items-center  justify-center text-center center flex">
+      <div className="w-[80%] mx-auto my-10 md:w-[50%] items-center  justify-center text-center center flex animate-ease-in-right-to-left">
         <img src={main} width={"100%"} />
       </div>
     </div>

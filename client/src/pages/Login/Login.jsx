@@ -36,7 +36,7 @@ const Login = () => {
           setAlert(false);
         }}
       />
-      <div className="bg-white w-[80%] sm:w-[45%] md:w-[40%] lg:w-[25%] h-[450px]  m-auto items-center rounded-md border-t-[4px] border-t-[#9b5204] px-7">
+      <div className="animate-ease-in-top-to-bottom bg-white w-[80%] sm:w-[45%] md:w-[40%] lg:w-[25%] h-[450px]  m-auto items-center rounded-md border-t-[4px] border-t-[#9b5204] px-7">
         <TopNav
           className="!pt-6 !pb-6 !px-0 justify-center"
           navClass="text-[28px]"

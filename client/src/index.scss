@@ -45,6 +45,19 @@ $scrollbar-width: 4px;
 #root {
   height: 100%;
 }
+.animate-ease-in-top-to-bottom {
+  animation: ease-in-top-to-bottom 1s ease-in-out;
+}
+@keyframes ease-in-top-to-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .animate-ease-in-right-to-left {
   animation: ease-in-right-to-left 1s ease-in-out;
 }
@@ -56,5 +69,18 @@ $scrollbar-width: 4px;
   100% {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+.animate-ease-in-left-to-right {
+  animation: ease-in-left-to-right 1s ease-in-out;
+}
+@keyframes ease-in-left-to-right {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
   }
 }
